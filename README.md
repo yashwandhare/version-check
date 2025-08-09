@@ -18,7 +18,7 @@ Run the following command to set up in one step:
 
 ```bash
 git clone git@github.com:yashwandhare/version-check.git && cd version-check && mkdir -p ~/bin && cp version-check.sh ~/bin/version-check && chmod +x ~/bin/version-check && echo 'alias version-check="~/bin/version-check"' >> ~/.zshrc && source ~/.zshrc
-```
+
 
 ---
 
@@ -43,15 +43,6 @@ version-check
 - The script will scan your system for development tools.  
 - It will display their installed versions.  
 - You can choose whether to update each tool.
-
----
-
-## **Example Output**
-```
-Node.js: v20.5.1 (Update available: v20.6.0) → Update? [y/N]
-Python: 3.11.4 (Up to date)
-Git: 2.42.0 (Up to date)
-```
 
 ---
 
