@@ -18,7 +18,7 @@ Run the following command to set up in one step:
 
 ```bash
 git clone git@github.com:yashwandhare/version-check.git && cd version-check && mkdir -p ~/bin && cp version-check.sh ~/bin/version-check && chmod +x ~/bin/version-check && echo 'alias version-check="~/bin/version-check"' >> ~/.zshrc && source ~/.zshrc
-
+```
 
 ---
 
