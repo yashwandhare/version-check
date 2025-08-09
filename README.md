@@ -14,18 +14,10 @@ It automatically detects popular programming languages, package managers, and ut
 ---
 
 ## **Installation**
+Run the following command to set up in one step:  
+
 ```bash
-# Clone the repository
-git clone git@github.com:yashwandhare/version-check.git
-cd version-check
-
-# Move script to ~/bin and make it executable
-cp version-check.sh ~/bin/version-check
-chmod +x ~/bin/version-check
-
-# Add alias to your shell configuration (Zsh example)
-echo 'alias version-check="~/bin/version-check"' >> ~/.zshrc
-source ~/.zshrc
+git clone git@github.com:yashwandhare/version-check.git && cd version-check && mkdir -p ~/bin && cp version-check.sh ~/bin/version-check && chmod +x ~/bin/version-check && echo 'alias version-check="~/bin/version-check"' >> ~/.zshrc && source ~/.zshrc
 ```
 
 ---
