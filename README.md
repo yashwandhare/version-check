@@ -1,4 +1,3 @@
-```
 # Development Environment Version Checker
 
 A simple Bash script that checks the installed versions of common development tools and offers to update them with your confirmation.  
@@ -66,4 +65,3 @@ Git: 2.42.0 (Up to date)
 
 ## **License**
 This project is open-source under the MIT License.
-```
